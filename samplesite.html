@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web" rel="stylesheet"> 
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <style>
+            
+            body{
+                background-color: rgba(0, 0, 0, 0.9);
+                color: #f2f2f2;
+                font-family:'Titillium Web', sans-serif;
+                p
+            }
+            img{
+                align-self: center;
+            }
+            
+            #sexyface{
+                border-radius: 50%;
+                display: block;
+                margin: auto;
+                width: 20vw;
+                min-width: 100px;
+                min-height: 100px;
+                
+            }
+            .maintext{
+                font-size: 3vh;
+                max-width: 90vw;
+            }
+            .collegeinfo{
+                font-size: 3vh;
+                max-width: 90vw;
+            }
+
+            .page{
+                display: flex;
+                width: 100vw;
+                
+                flex-direction: column;
+            }
+            #reach{
+                text-align: center;
+            }
+            .socialmediaicons{
+                display: flex;
+                justify-content: center;
+                padding: 1vw;
+            }
+            .socialmediaicons > a{
+                
+                color: #f2f2f2;
+                transition: color 0.2;
+                font-size: max(6vw,48px);
+                
+                
+               
+            }
+
+            .socialmediaicons > a:hover{
+                color: #4E763B;
+            }
+            .employer{
+                font-weight: bold;
+                font-size: 5vh;
+
+            }
+            .workinfo{
+                font-size: 3vh;
+                
+            }
+            h1{
+                padding: 20px;
+                text-align: center;
+                font-size:10vh
+            }
+            section{
+                padding: 30px;
+            }
+            h2{
+                
+                font-size: 10vh;
+
+            }
+            p{
+                font-size: 16px;
+                line-height: 1.6;
+            }
+        </style>
+
+        <Title>Matt Squicquero's Site</Title>
+    </head>
+    <body>
+        <div class="page"><h1>Hi, my name is <span>Matt.</span><br> Here's some info about me.....</h1>
+        <img src="sexyface.jpg" alt="Picture of my beautiful face" id="sexyface">
+        </div>
+        <div class="page"><h2>About Me</h2>
+            <div class="maintext" id="aboutme">I've enjoyed coding since I started in 2017 when I took my first 
+                course in college. I learned some python and then some C++. I then was deployed with the 
+                Army and had to take some time away from college. This put me a little behind since I started a family as well.
+                I started attending Western Govenors University and set my sights on landing a role in Software Development.
+            </div>
+        </div>
+        <div class="page"><h2>Recent Work Experience</h2>
+        <div id="experience">
+            <h3 class="employer">US Army</h3>
+                <div class="workinfo">
+                    <div class="role">PSYOP Specialist</div>
+                    <div class="dates">April 2016 - Present</div>
+                    <div class="work info">
+                        <ul>
+                            <li>Originally was a Motor Transport Operator but transferred to PSYOP in 2022</li>
+                            <li>Utilized effective communication and interpersonal skills to build relationships and collaborate withdiverse teams, ensuring seamless coordination and successful project completion.</li>
+                            <li>Leveraged creativity and critical thinking to design and implement innovative solutions, enhancingoperational effectiveness and achieving mission objectives.</li>
+                            <li>Utilized data analysis techniques to assess the effectiveness of communication campaigns and adjuststrategies accordingly, illustrating skills in data-driven decision-making</li>
+                            <li>Created and delivered multimedia content, such as presentations and briefings, utilizing skills in visual communication and multimedia design</li>
+                        </ul>
+                    </div>
+                </div>
+            <h3 class="employer">TechGen Consulting</h3>
+                <div class="workinfo">
+                    <div class="role">IT Technician</div>
+                    <div class="dates">February 2022 - Present</div>
+                    <div class="work info"></div>
+                    <ul>
+                        <li>Troubleshot and resolved complex technical issues related to hardware, software, and network connectivity, utilizing strong problem-solving and diagnostic skills.
+                        <li>Configured and maintained network infrastructure and security measures,
+                            including firewalls, routers,and VPNs, to safeguard sensitive information 
+                            and protect against cyber threats.</li>
+                        <li>Performed routine system maintenance tasks, such as software updates, patches, and securityenhancements, to ensure data integrity and system reliability.</li>
+                        <li>Provided end-user support and training, assisting with software installations, user account management.</li>
+                        <li>Maintained documentation and technical manuals, creating comprehensive guidelines and instructionsfor system configurations, installations, and troubleshooting procedures.</li>
+                    </ul>
+                </div>
+            <h3 class="employer">Acumen IT</h3>
+                <div class="workinfo">
+                    <div class="role">IT Engineer</div>
+                    <div class="dates">June 2021 - February 2022 </div>
+                    <div class="work info"></div>
+                    <ul>
+                        <li>Acted as onsite system admin for Bruce and Merrilees Electric Company</li>
+                        <li>Managed on premise Windows servers and Sophos XG firewalls for Bruce and Merrilees ElectricCompany</li>
+                        <li>Managed inventory for Bruce and Merrilees Electric including procurement of new devices through aprocurement system with Acumen IT</li>
+                        <li>Resolved technical issues for users while progressing project completion</li>
+                    </ul>
+                </div>
+        </div>
+        </div>
+        <div class="page"> <h2>Education</h2>
+        <div id="education-section">
+            <h3>Western Governors Unitversity</h3>
+            <div class="collegeinfo">
+            <div id="dategrad">January 2022 - Expected 2024</div>
+            <div id="major">BS Software Development</div>
+            <div id="gpa">GPA: 3.0</div>
+            <div id="collegeinfo">This is my second college that I have attented. I origially went to Youngstown State University for a simmilar major but they did not offer online courses at the time. So I had to transfer. Go Guins and Go NightOwls!</div>
+            </div>
+        </div>
+        </div>
+        <div class="page">
+        <h2 id="reach">Want To Reach Me?</h2>
+        <div class="socialmediaicons">
+            <a href="https://linkedin.com/in/matthewsquicquero"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://www.twitter.com/SquigSquag"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="https://github.com/SquigSquag"><ion-icon name="logo-github"></ion-icon></a>
+        </div>
+        </div>
+    </body>
+</html>
