@@ -13,7 +13,7 @@
                 background-color: rgba(0, 0, 0, 0.9);
                 color: #f2f2f2;
                 font-family:'Titillium Web', sans-serif;
-                p
+                
             }
             img{
                 align-self: center;
@@ -23,7 +23,7 @@
                 border-radius: 50%;
                 display: block;
                 margin: auto;
-                width: 20vw;
+                width: clamp(20px,20vw,200px);
                 min-width: 100px;
                 min-height: 100px;
                 
@@ -39,7 +39,7 @@
 
             .page{
                 display: flex;
-                width: 100vw;
+                width: calc(100vw - #{$scrollbar / 2});
                 
                 flex-direction: column;
             }
@@ -76,14 +76,14 @@
             h1{
                 padding: 20px;
                 text-align: center;
-                font-size:10vh
+                font-size: clamp(2.5rem,2.8rem,45px);
             }
             section{
                 padding: 30px;
             }
             h2{
                 
-                font-size: 10vh;
+                font-size: clamp(2.5rem,10vh,2.75rem);
 
             }
             p{

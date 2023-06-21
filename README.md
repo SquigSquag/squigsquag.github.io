@@ -1,2 +1,0 @@
-# PersonalSite
-Site to practice
